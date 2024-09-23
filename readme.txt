@@ -1,0 +1,18 @@
+- Initialize virtual environment
+    python m venv venv
+- Activation de l'environment
+    source venv/bin/activate
+    venv\Scripts\activate
+- Install dependancies 
+    pip install fastapi uvicorn
+- create project directory structrure
+-  configure database relation :
+    Database : MySQL
+    Install all dependencies : 
+        pip install sqlalchemy
+        pip install aiomysql
+        pip install alembic (for migrations)
+    Install python-dotenv : pip install python-dotenv
+    Configure migrations : 
+        Execute commande ligne :alembic init alembic
+
