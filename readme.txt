@@ -15,4 +15,6 @@
     Install python-dotenv : pip install python-dotenv
     Configure migrations : 
         Execute commande ligne :alembic init alembic
-
+        Run migrations : alembic revision --autogenerate -m "create users table"
+        Applicate migrations : alembic upgrade head
+        

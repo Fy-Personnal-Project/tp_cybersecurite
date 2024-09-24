@@ -4,3 +4,5 @@ sqlalchemy
 aiomysql
 alembic
 python-dotenv 
+pydantic_settings
+pymysql
