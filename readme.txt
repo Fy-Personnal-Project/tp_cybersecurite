@@ -6,7 +6,7 @@
 - Install dependancies 
     pip install fastapi uvicorn
 - create project directory structrure
--  configure database relation :
+- configure database relation :
     Database : MySQL
     Install all dependencies : 
         pip install sqlalchemy
@@ -17,4 +17,9 @@
         Execute commande ligne :alembic init alembic
         Run migrations : alembic revision --autogenerate -m "create users table"
         Applicate migrations : alembic upgrade head
+- Create controllers and router to add users :
+    - create schema validation : schema/user.py
+    - install passlib[bcrypt] to crypt the password : pip install passlib[bcrypt]
+    
+
         

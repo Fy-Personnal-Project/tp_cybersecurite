@@ -6,3 +6,5 @@ alembic
 python-dotenv 
 pydantic_settings
 pymysql
+passlib[bcrypt]
+pydantic[email]
