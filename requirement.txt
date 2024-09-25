@@ -8,3 +8,4 @@ pydantic_settings
 pymysql
 passlib[bcrypt]
 pydantic[email]
+python-jose

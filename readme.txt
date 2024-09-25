@@ -18,8 +18,14 @@
         Run migrations : alembic revision --autogenerate -m "create users table"
         Applicate migrations : alembic upgrade head
 - Create controllers and router to add users :
-    - create schema validation : schema/user.py
+    - create schema validation : domains/schema/user.py
     - install passlib[bcrypt] to crypt the password : pip install passlib[bcrypt]
+    - create function to save user : services/user.service.py
+    - create controller to create a user : controllers/user_controller.py
+- Create controller and router to login and logout:
+    - install python-jose to generate connexion token: pip install python-jose
+    - manage access token : librairies/manageAccessToken.py
+    
     
 
         
